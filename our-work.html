@@ -56,44 +56,64 @@ permalink: /our-work/
     </div>
 </section>
 
-<section>
-    <div class="filter" data-filter="all">Show All</div>
-    <div class="filter" data-filter=".mix-web-design">Web Design</div>
-    <div class="filter" data-filter=".mix-client">Client</div>
-    <div class="filter" data-filter=".mix-hackathon">Hackathon</div>
-    <div class="filter" data-filter=".mix-open-source">Open Source</div>
-</section>
-
 <section class="section">
+    <nav class="navbar container">
+    <div class="navbar-left">
+        <div class="heading navbar-item">
+            <h2 class="title is-3">Our Work</h2>
+        </div>
+    </div>
+      <!-- Right side -->
+      <div class="navbar-right">
+        <p class="navbar-item"><strong>Filters: </strong></p> 
+        <p class="navbar-item filter button" data-filter="all">All</p>
+        <p class="navbar-item filter button" data-filter=".mix-web-design">Web Design</p>
+        <p class="navbar-item filter button" data-filter=".mix-web-application">Web Application</p>
+        <p class="navbar-item filter button" data-filter=".mix-client">Client</p>
+        <p class="navbar-item filter button" data-filter=".mix-hackathon">Hackathon</p>
+        <p class="navbar-item filter button" data-filter=".mix-ruby-on-rails">Ruby on Rails</p>
+      </div>
+    </nav>
+
     <div id="js-mix-container" class="columns is-multiline">
-        <div class="column is-third mix mix-web-design mix-client">
-            <h3>Ecovative</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="column is-third mix mix-web-design mix-client mix-ruby-on-rails">
+            <div class="heading">
+              <h3 class="subtitle is-3">Ecovative Website</h3>
+            </div>
+            <div class="content">
+                <p><span class="tag">Client</span> <span class="tag">Web Design</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
+                <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-primary">View Case Study &rarr;</a></p>
+            </div>
         </div>
 
-        <div class="column is-third mix mix-web-design mix-hackathon">
-            <h3>Ant Hill</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="column is-third mix mix-web-application mix-client mix-ruby-on-rails">
+            <div class="heading">
+              <h3 class="subtitle is-3">Ant Hill</h3>
+            </div>
+            <div class="content">
+                <p><span class="tag">Client</span> <span class="tag">Web Application</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
+                <p><a href="{{ "/projects/ant-hill" | prepend: site.github.url }}" class="button is-medium is-primary">View Case Study &rarr;</a></p>
+            </div>
         </div>
 
-        <div class="column is-third mix mix-open-source mix-client">
-            <h3>Other Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="column is-third mix mix-web-application mix-client mix-ruby-on-rails">
+            <div class="heading">
+              <h3 class="subtitle is-3">TSL Adventures</h3>
+            </div>
+            <div class="content">
+                <p><span class="tag">Client</span> <span class="tag">Web Application</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
+                <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-disabled">Case Study Coming Soon &rarr;</a></p>
+            </div>
+        </div>
+
+        <div class="column is-third mix mix-web-design mix-client mix-ruby-on-rails">
+            <div class="heading">
+              <h3 class="subtitle is-3">Explore Saratoga</h3>
+            </div>
+            <div class="content">
+                <p><span class="tag">Client</span> <span class="tag">Web Design</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
+                <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-disabled">Case Study Coming Soon &rarr;</a></p>
+            </div>
         </div>
     </div>
 </section>
