@@ -4,20 +4,20 @@
     <!-- Left side -->
     <div class="header-left">
       <a class="header-item" href="{{ site.baseurl }}/">
-        <img src="../images/delight-logo-black.svg" alt="Delight Logo" width="65" height="50" class="logo">
+        <img src="{{ "../images/delight-logo-black.svg" | prepend: site.github.url }}" alt="Delight Logo" width="65" height="50" class="logo">
       </a>
     </div>
 
     <!-- Right side -->
     <div id="js-header-menu" class="header-right header-menu">
       <span class="header-item">
-        <a href="/about">About</a>
+        <a href="{{ "/about" | prepend: site.github.url }}">About</a>
       </span>
       <span class="header-item">
-        <a href="/our-work">Our Work</a>
+        <a href="{{ "/our-work" | prepend: site.github.url }}">Our Work</a>
       </span>
       <span class="header-item">
-        <a href="/contact">Contact</a>
+        <a href="{{ "/contact" | prepend: site.github.url }}">Contact</a>
       </span>
       <span class="header-item">
         <a href="javascript:void(0);" class="button is-success">

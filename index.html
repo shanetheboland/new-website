@@ -30,11 +30,11 @@ layout: default
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur.</p>
             <p><span class="tag">Client</span> <span class="tag">Web Design</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
-            <p><a href="/projects/ecovative-website" class="button is-medium is-primary">View Case Study &rarr;</a></p>
+            <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-primary">View Case Study &rarr;</a></p>
         </div>
         <div class="column is-7">
             <p class="image is-3by2 is-rounded">
-                <img src="../images/ecovative-mockup.jpg">
+              <img src="{{ "../images/ecovative-mockup.jpg" | prepend: site.github.url }}">
             </p>
         </div>
     </div>
@@ -53,11 +53,11 @@ layout: default
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur.</p>
             <p><span class="tag">Client</span> <span class="tag">Web Application</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
-            <p><a href="/projects/ant-hill" class="button is-medium is-primary">View Case Study &rarr;</a></p>
+            <p><a href="{{ "/projects/ant-hill" | prepend: site.github.url }}" class="button is-medium is-primary">View Case Study &rarr;</a></p>
         </div>
         <div class="column is-7">
             <p class="image is-3by2 is-rounded">
-                <img src="../images/ant-hill-mockup.jpg">
+                <img src="{{ "../images/ant-hill-mockup.jpg" | prepend: site.github.url }}">
             </p>
         </div>
     </div>
@@ -67,17 +67,15 @@ layout: default
 <section id="newsletter" class="hero is-primary is-bold">
   <div class="hero-content">
     <div class="container">
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup" class="columns is-vcentered">
+      <div class="columns is-vcentered">
         <div class="column is-left is-text-left">
           <p class="title">We <strong>love</strong> what we do</p>
           <p class="subtitle">We’re a team of developers and designers finding solutions to your business’s problems.</p>
         </div>
 
         <div class="column is-third">
-          <a href="/about" class="button is-primary is-outlined is-inverted is-medium">Learn more about us</a>
+          <a href="{{ "/about" | prepend: site.github.url }}" class="button is-primary is-outlined is-inverted is-medium">Learn more about us</a>
       </div>
-      <!--End mc_embed_signup-->
     </div>
   </div>
 </section>
