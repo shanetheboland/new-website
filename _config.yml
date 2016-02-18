@@ -1,0 +1,18 @@
+# Site settings
+title: Delight
+email: shane@delight.consulting
+description: > # this means to ignore newlines until "baseurl:"
+  Custom software for your business. Save time, money, and manpower.
+baseurl: "http://delight.consulting" # the subpath of your site, e.g. /blog/
+url: "http://delight.consulting" # the base hostname & protocol for your site
+twitter_username: delightconsulting
+github_username:  delightconsulting
+
+# Exclude these files when building the _site folder
+exclude: ["todo", "_drafts"]
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
