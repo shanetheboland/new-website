@@ -91,3 +91,24 @@
 
 .filter.active
   @extend .button.is-primary
+
+.is-textured
+  background-image: url("../images/texture-black.svg")
+
+.is-delight-gradient
+  background-color: $brand
+  background: -webkit-linear-gradient(to right, $brand , #ffcc33)
+  background: linear-gradient(to right, $brand , #ffcc33)
+  .title 
+    color: #fff
+  .subtitle
+    color: rgba(#fff, .8)
+    strong
+      color: rgba(#fff, .9)
+      font-weight: 700
+
+
+.mix
+  margin-bottom: 20px
+  .subtitle
+    margin-bottom: 10px

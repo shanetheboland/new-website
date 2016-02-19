@@ -4,7 +4,7 @@ title: Our Work
 permalink: /our-work/
 ---
 
-<section class="hero is-warning is-left is-medium">
+<section class="hero is-info is-left is-medium is-textured">
   <div class="hero-content">
     <div class="container">
       <h1 class="title">
@@ -56,7 +56,7 @@ permalink: /our-work/
     </div>
 </section>
 
-<section class="section">
+<section class="section is-textured">
     <nav class="navbar container">
     <div class="navbar-left">
         <div class="heading navbar-item">
@@ -69,20 +69,21 @@ permalink: /our-work/
         <p class="navbar-item filter button" data-filter="all">All</p>
         <p class="navbar-item filter button" data-filter=".mix-web-design">Web Design</p>
         <p class="navbar-item filter button" data-filter=".mix-web-application">Web Application</p>
-        <p class="navbar-item filter button" data-filter=".mix-client">Client</p>
-        <p class="navbar-item filter button" data-filter=".mix-hackathon">Hackathon</p>
+        <!-- <p class="navbar-item filter button" data-filter=".mix-client">Client</p> -->
+        <!-- <p class="navbar-item filter button" data-filter=".mix-hackathon">Hackathon</p> -->
         <p class="navbar-item filter button" data-filter=".mix-ruby-on-rails">Ruby on Rails</p>
       </div>
     </nav>
 
-    <div id="js-mix-container" class="columns is-multiline">
+    <div class="container">
+    <div id="js-mix-container" class="columns is-multiline is-no-padding-left">
         <div class="column is-third mix mix-web-design mix-client mix-ruby-on-rails">
             <div class="heading">
               <h3 class="subtitle is-3">Ecovative Website</h3>
             </div>
             <div class="content">
                 <p><span class="tag">Client</span> <span class="tag">Web Design</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
-                <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-primary">View Case Study &rarr;</a></p>
+                <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-warning">View Case Study &rarr;</a></p>
             </div>
         </div>
 
@@ -92,7 +93,7 @@ permalink: /our-work/
             </div>
             <div class="content">
                 <p><span class="tag">Client</span> <span class="tag">Web Application</span> <span class="tag">Responsive</span> <span class="tag">Ruby on Rails</span></p>
-                <p><a href="{{ "/projects/ant-hill" | prepend: site.github.url }}" class="button is-medium is-primary">View Case Study &rarr;</a></p>
+                <p><a href="{{ "/projects/ant-hill" | prepend: site.github.url }}" class="button is-medium is-warning">View Case Study &rarr;</a></p>
             </div>
         </div>
 
@@ -115,5 +116,6 @@ permalink: /our-work/
                 <p><a href="{{ "/projects/ecovative-website" | prepend: site.github.url }}" class="button is-medium is-disabled">Case Study Coming Soon &rarr;</a></p>
             </div>
         </div>
+    </div>
     </div>
 </section>

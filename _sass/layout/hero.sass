@@ -32,7 +32,7 @@
       margin-right: 20px
 
 .hero
-  background: white
+  background-color: white
   text-align: center
   .header
     background: none
@@ -46,13 +46,14 @@
       a
         padding: 8px 15px
   &.is-alt
-    background: $background
+    background-color: $background
     color: $text-light
+
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}
-      background: $color
+      background-color: $color
       color: $color-invert
       .title
         color: $color-invert
@@ -148,3 +149,14 @@
     text-align: left
   &.is-right
     text-align: right
+
+.hero.is-delight
+  @extend .is-textured
+  background-color: $brand
+  .title 
+    color: #fff
+  .subtitle
+    color: rgba(#fff, .8)
+    strong
+      color: rgba(#fff, .9)
+      font-weight: 700
