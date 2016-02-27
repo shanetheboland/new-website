@@ -35,7 +35,7 @@ permalink: /contact/
             <input type="hidden" name="_cc" value="hunter@delight.consulting" />
             <input type="text" name="_gotcha" style="display:none" />
             <input type="hidden" name="_subject" value="Delight Contact Form Submission" />
-            <input type="hidden" name="_next" value="//delight.consulting/thank-you/" />
+            <input type="hidden" name="_next" value="{{ "/thank-you" | prepend: site.github.url }}" />
             <p class="control">
               <input type="submit" class="button is-warning is-bold is-medium" value="Send Message">
             </p>
